@@ -1,0 +1,112 @@
+* {
+	font-family: "Montserrat", sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.nav {
+	align-items: center;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.card {
+	padding: 5%;
+	border: 1px solid rgb(218, 218, 218);
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+
+.card-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+.field-buyer {
+	width: 100%;
+}
+
+input {
+	padding: 5px;
+	border: 1px solid rgb(218, 218, 218);
+	border-radius: 5px;
+}
+
+.select-product {
+	float: left;
+}
+
+select {
+	padding: 5px;
+	width: 200px;
+	border: 1px solid rgb(218, 218, 218);
+	border-radius: 5px;
+}
+
+.field-amount {
+	float: left;
+	padding-left: 30px;
+}
+
+.amount {
+	margin: 5px;
+}
+
+.del {
+	float: left;
+	margin-top: 18px;
+}
+
+.box {
+	padding-top: 5px;
+	color: red;
+	border-color: red;
+}
+
+li {
+	font-weight: 400;
+}
+
+button {
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid rgb(218, 218, 218);
+}
+
+.btn-primary {
+	width: 100%;
+	background-color: rgb(0, 123, 255);
+	color: white;
+}
+
+.btn-primary:hover {
+	background-color: rgb(0, 105, 217);
+	cursor: pointer;
+}
+
+.btn-green {
+	width: 100%;
+	background-color: rgb(40, 167, 69);
+	color: white;
+}
+
+.btn-green:hover {
+	background-color: rgb(33, 136, 56);
+	cursor: pointer;
+}
+
+.btn-danger {
+	padding: 2px 10px;
+	border: 2px solid rgb(220, 53, 69);
+}
+
+.btn-danger:hover {
+	border: 2px solid rgb(200, 35, 51);
+	cursor: pointer;
+}
